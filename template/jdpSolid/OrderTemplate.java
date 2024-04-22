@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Order {
+public class OrderTemplate {
 
     private Map<String, Double> items = new HashMap<>();
 	
@@ -12,7 +12,7 @@ public class Order {
     private LocalDate date;
     private double total;
 
-    public Order(String id) {
+    public OrderTemplate(String id) {
         this.id = id;
         date = LocalDate.now();
     }
