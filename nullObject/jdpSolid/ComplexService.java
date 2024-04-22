@@ -25,6 +25,6 @@ public class ComplexService {
 		}
 		
 		System.out.println("Done with report..");
-		storage.save(new Report(reportName));
+		storage.save(new ReportNull(reportName));
 	}
 }

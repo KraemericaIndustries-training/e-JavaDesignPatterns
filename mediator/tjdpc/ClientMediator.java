@@ -5,10 +5,10 @@ public class ClientMediator {
 
         ChatMediator mediator = new ChatMediatorImpl();
 
-        User user1 = new UserImpl(mediator, "Jason");
-        User user2 = new UserImpl(mediator, "Jennifer");
-        User user3 = new UserImpl(mediator, "Lucy");
-        User user4 = new UserImpl(mediator, "Ian");
+        UserMediator user1 = new UserImpl(mediator, "Jason");
+        UserMediator user2 = new UserImpl(mediator, "Jennifer");
+        UserMediator user3 = new UserImpl(mediator, "Lucy");
+        UserMediator user4 = new UserImpl(mediator, "Ian");
 
         mediator.addUser(user1);
         mediator.addUser(user2);

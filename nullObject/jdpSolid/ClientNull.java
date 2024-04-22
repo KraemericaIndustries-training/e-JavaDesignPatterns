@@ -1,6 +1,6 @@
 package jdpSolid;
 
-public class Client {
+public class ClientNull {
 
 	public static void main(String[] args) {
 		ComplexService service = new ComplexService("Simple report", new StorageService());

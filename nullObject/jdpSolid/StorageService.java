@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 
 public class StorageService {
 
-	public void save(Report report) {
+	public void save(ReportNull report) {
 		System.out.println("Writing report out");
 		try(PrintWriter writer = new PrintWriter(report.getName() + ".txt")) {
 			

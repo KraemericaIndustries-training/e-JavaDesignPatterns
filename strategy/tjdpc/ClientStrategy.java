@@ -2,7 +2,7 @@ package tjdpc;
 
 public class ClientStrategy {
     public static void main(String[] args) {
-        Context context = new Context();
+        ContextStrategy context = new ContextStrategy();
 
         int result = context.executeStrategy(new OperationAdd(), 10, 5);
 

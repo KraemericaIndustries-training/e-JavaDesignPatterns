@@ -1,10 +1,10 @@
 package jdpSolid;
 
-public class Report {
+public class ReportNull {
 
 	private String name;
 	
-	public Report(String name) {
+	public ReportNull(String name) {
 		this.name = name;
 	}
 	

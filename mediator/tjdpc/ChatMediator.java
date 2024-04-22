@@ -4,25 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 interface ChatMediator {
-    public void sendMessage(String msg, User user);
-    void addUser(User user);
+    public void sendMessage(String msg, UserMediator user);
+    void addUser(UserMediator user);
 }
 
 class ChatMediatorImpl implements ChatMediator {
-    private List<User> users;
+    private List<UserMediator> users;
 
     public ChatMediatorImpl() {
         this.users = new ArrayList<>();
     }
 
     @Override
-    public void addUser(User user) {
+    public void addUser(UserMediator user) {
         this.users.add(user);
     }
 
     @Override
-    public void sendMessage(String msg, User user) {
-        for (User u:this.users) {
+    public void sendMessage(String msg, UserMediator user) {
+        for (UserMediator u:this.users) {
             // message should not be received by the user sending it
             if(u != user) {
                 u.receive(msg);
