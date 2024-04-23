@@ -33,8 +33,7 @@ public class AppraisalVisitor implements Visitor{
 		finalRating.setFinalRating(rating);
 		finalRating.setTeamAverageRating(teamAverage);
 		
-		ratings.put(lead.getEmployeeId(), 
-				finalRating);
+		ratings.put(lead.getEmployeeId(), finalRating);
 	}
 
 	@Override
