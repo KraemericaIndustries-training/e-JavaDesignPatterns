@@ -13,8 +13,6 @@ public class ClientBridgeSolid {
 		System.out.println(collection.poll());
 		System.out.println(collection.poll());
 		System.out.println(collection.poll());
-		System.out.println(collection.poll());
-		
+		System.out.println(collection.poll());	
 	}
-
 }

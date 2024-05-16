@@ -1,6 +1,5 @@
 package jdpSolid;
 
-
 public class ClientProxySolid {
 
 	public static void main(String[] args) {

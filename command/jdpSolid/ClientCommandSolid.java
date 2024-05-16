@@ -15,5 +15,4 @@ public class ClientCommandSolid {
 		Thread.sleep(3000);
 		MailTasksRunner.getInstance().shutdown();
 	}
-
 }

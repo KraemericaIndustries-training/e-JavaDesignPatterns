@@ -2,7 +2,6 @@ package jdpSolid;
 
 public class ClientComposite {
 	
-	
 	public static void main(String[] args) {
 		
 		File root1 = createTreeOne();

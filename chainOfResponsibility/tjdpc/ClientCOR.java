@@ -24,6 +24,5 @@ public class ClientCOR {
         raiser.raiseMessage(m2);
         raiser.raiseMessage(m3);
         raiser.raiseMessage(m4);
-
     }
 }
